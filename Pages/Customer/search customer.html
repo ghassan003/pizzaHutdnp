@@ -55,7 +55,7 @@
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="../Stock/search product in stock .html">
+            <a class="nav-link" href="../Stock/Stock index .html">
               <i class="material-icons">filter_frames</i>
               <p>Stock</p>
             </a>
@@ -73,7 +73,7 @@
             </a>
           </li>
           <li class="nav-item ">
-              <a class="nav-link" href="">
+              <a class="nav-link" href="../Customer/Customer index.html">
                 <i class="material-icons">perm_identity</i>
                 <p>Customer List</p>
               </a>
@@ -199,347 +199,208 @@
       <!-- End Navbar -->
       <div class="content">
 
-      
+        <div class="container-fluid">
+
          <div class="row">
            <!-----------------------Row----------------------------------------->
+            
+           <div class="card card-nav-tabs text-center" >
           
-           
-           <div class="card card-nav-tabs text-center">
-            <div class="card-header card-header-primary" style="font-size:30px" >
-              Stock
+            <div class="card-header card-header-primary" style="font-size:40px">
+              
+                Search Customer
             </div>
-
-          
-              <div class="modal-body">
-                <divc class="col-lg-10 col-md-6 col-sm-6" >  
-                
-          <table  class="table table-borderless">
-
-                <div class="container-fluid">
-                
-            </div> 
-        <thead>
-          <tr>
-         <th>
-          <label style="font-size:25px;color: black;font-style:bold;" for="inputLGEx">Search with Name  :</label>
-         </th>    
-         <th>     
-          <input   style="width: 300px; color:black;font-style:bold; font-size:28px; font-style:bold;"  class="form-control form-control-lg" type="text" placeholder=" Enter Product Name">
-         </th>
-        </tr>
-
-
-        <tr>
-          <th>
-           <label style="font-size:25px;color: black;font-style:bold;" for="inputLGEx">Search with Code :</label>
-          </th>
-          <th>     
-           <input   style="width: 300px;color:black;font-style:bold; font-size:28px; font-style:bold;"  class="form-control form-control-lg" type="text" placeholder="Enter Product Code">
-          </th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th>
-            <div class="btn-group" style="float: right">
-              <button type="button" class="btn btn-success dropdown-toggle floatr" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Print Product List
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">PDF</a>
-                <a class="dropdown-item" href="#">CSV</a>
-                
-              </div>
-            </div> 
-          </th>
-         </tr>
-    
-     
-    
-         <tr  style="background: linear-gradient(60deg, #571163, #9612bb);">
-         
-          <th style="font-size:20px; color:white" >Sr</th>
-          <th style="font-size:20px; color:white" >Name</th>
-          <th style="font-size:20px; color:white">Job Position</th>
-          <th style="font-size:20px; color:white">Since</th>
-          <th style="font-size:20px; color:white" class="text-right">Salary</th>
-          <th style="font-size:20px; color:white" class="text-right">Actions</th>
-      </tr>     </thead>
-        <tbody>
-            <tr>
-                <td class="text-center">1</td>
-                <td>Andrew Mike</td>
-                <td>Develop</td>
-                <td>2013</td>
-                <td class="text-right">&euro; 99,225</td>
-                <td class="td-actions text-right">
-                    <button type="button" rel="tooltip" class="btn btn-info">
-                        <i class="material-icons">person</i>
-                    </button>
-                    <button type="button" rel="tooltip"   data-toggle="modal" data-target="#updateproductquntity" class="btn btn-success">
-                     
-                        <i class="material-icons">edit</i>
-                    </button>
-                    <button type="button" rel="tooltip" class="btn btn-danger">
-                        <i class="material-icons">close</i>
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <td class="text-center">2</td>
-                <td>John Doe</td>
-                <td>Design</td>
-                <td>2012</td>
-                <td class="text-right">&euro; 89,241</td>
-                <td class="td-actions text-right">
-                    <button type="button" rel="tooltip" class="btn btn-info btn-round">
-                        <i class="material-icons">person</i>
-                    </button>
-                    <button type="button" rel="tooltip"   data-toggle="modal" data-target="#updateproductquntity" class="btn btn-success">
-                        <i class="material-icons">edit</i>
-                    </button>
-                    <button type="button" rel="tooltip" class="btn btn-danger btn-round">
-                        <i class="material-icons">close</i>
-                    </button>
-                </td>
-            </tr>
-           
-        </tbody>
-    </table>
-    </div>   
-
-    <div class="col-lg-1" style="float: right;">
-
-    <a href="../Owner dashbord.html" target="" class="boxshadow btn btn-info" data-toggle="" data-target="">Back Home</a>
-                 
-                         
-               
-  
-  
-                 
-               </div>
-  </div>
-     
-    </div>     
+            <br>
+          <!------> 
+         </div>
+      </div>     
  </div>
     
            
+ <div class="container" style="background-color:white;">
+
+
+  <form style="padding-left: 30px;">
+    <div class="form-row">
+      <br>
+      <div class="col-md-4 mb-3 md-form">
+        <label style="font-size:25px;color: black;font-style:bold;" for="inputLGEx">Search with Name :</label>
+        <input   style="width: 300px;color:black;font-style:bold; font-size:28px; font-style:bold;"  class="form-control form-control-lg" type="text" placeholder="Enter Customer Name ">
+      </div>
+     
+    
+      </form>
+<br>
+<!----------Product table start-->
+  <div class ="row" style="width: 1400px;" >
+                    
+       <divc class="col-lg-11 col-md-12 col-sm-6" >  
+              <div class="btn-group" style="float: right">
+                <button type="button" class="btn btn-success dropdown-toggle floatr" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Print Customer List
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">PDF</a>
+                  <a class="dropdown-item" href="#">CSV</a>
+                  
+                </div>
+              </div>    
+              <table  class="table table-borderless">
+                <thead>
+               
+                <tr  style="background: linear-gradient(60deg, #571163, #9612bb);">
+                  
+                  <th style="font-size:20px; color:white" >Sr</th>
+                  <th style="font-size:20px; color:white" >Name</th>
+                  <th style="font-size:20px; color:white" >Phone Number</th>
+                  <th style="font-size:20px; color:white"> Address</th>
+                  <th></th>
+                  <th style="font-size:20px; color:white">Actions</th> 
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-center">1</td>
+                    <td>Andrew Mike</td>
+                    <td>Develop</td>
+                    
+                   <td> islamabad </td>
+                   <td></td>
+                    <td class="td-actions text-right">
+                        <button type="button" rel="tooltip"  data-toggle="modal" data-target="#addnewcustomer" class="btn btn-info">
+                            <i class="material-icons">person</i>
+                        </button>
+                        <button type="button" rel="tooltip"   data-toggle="modal" data-target="#updatecustomerinfo" class="btn btn-success">
+                         
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" class="btn btn-danger">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </td>
+                </tr>
+             
+               
+            </tbody>
+        </table>
+  </div>         
+          <hr>
+        <a href="../Owner dashbord.html" target="" class="boxshadow btn btn-info" data-toggle="" data-target=""  style="float: left;">Back Home</a>     
+      
+    </div>
+    
+   
+ </div>
  
+ <br>
+ <br>
                             </div>      
   
-       
-       <!-- Modal   Start Add New Product  -->
-
-       <div class="modal fade" id="addnewproduct" tabindex="-1" role="dialog" aria-labelledby="addnewproduct" aria-hidden="true">
-        <div class="modal-dialog  "role="document"  >
-          <div class="modal-content" style="width: 780px;" >
-            <div class="modal-header"  >
-                      <h3 class="modal-title card-header card-header-primary"  id="addnewproduct">Add New Product</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="col-lg-8 col-md-6 col-sm-6" style="width: 880px;" >      
-                    <div class="modal-body" >
-                      <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <form style="width:160px;"> 
-
-                                <!--------- comapny form start-->
-
-                            <div class="form-group">
-                               <label style="font-size:15px;color: black;font-style:bold;"for="Enter Name">Enter Company Name</label>
-                               <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Company Name" placeholder="">
-                            </div>
-                      
-                            
-                            <div class="form-group">
-                              <label style="font-size:15px;color: black;font-style:bold;"for="Enter Name">Enter Company Code</label>
-                               <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Company Name" placeholder="">
-                            </div>
-                         
-
-                            <!-------------------------------------->
-                                <div class="form-group">
-                                  <label style="font-size:15px;color: black;font-style:bold;"for="Enter Name">Enter Model Name</label>
-                                   <input   style="width: 260px;color:black font-size:15px "   type="text" class="form-control" id="Company Name" placeholder="">
-                                </div>
-                           
-                                      <div class="form-group">
-                                  <label style="font-size:15px;color: black;font-style:bold;"for="Enter Name">Enter Model Code </label>
-                                   <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Company Name" placeholder="">
-                                </div>
-
-
-                                    <!----company form end-->
-
-                 <!-- input Enter Name ------>
-                <div class="form-group">
-                  <label style="font-size:15px;color: black;font-style:bold;"for="Name" >Enter Product Name  </label>
-                   <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="productname" aria-describedby="emailHelp" placeholder=" ">
-              
-                  <!--- Modal   Start Add company  -->
-                </div>
-               
-                 <!--Enter Company code  -->
-                 <div class="form-group">
-                  <label style="font-size:15px;color: black;font-style:bold;"for="text">Enter Product code</label>
-                   <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="productcode" aria-describedby="emailHelp" placeholder="">
-                <!------     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>  --->
-                </div>
-                
-                <div class="form-group">
-                  <label style="font-size:15px;color: black;font-style:bold;"for="text">Product Type</label>
-                   <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
-               
-                </div>
-              </form>
-
-                      </div>
-                      <!----Dialog Box send from-->
-                <div class="col-lg-6 col-md-6 col-sm-6" >
-                      <form class="from 2 company data " style="margin-left:15% ;"> 
-                  <!-- input Enter Name ------>
-              <div class="form-group">
-                <label style="font-size:15px;color: black;font-style:bold;"for="Name" > Purchase Price </label>
-                 <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
-             
-                <!--- Modal   Start Add company  -->
-              </div>
-          
-              <div class="form-group">
-                <label style="font-size:15px;color: black;font-style:bold;"for="text">Total Quntity</label>
-                 <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
-             
-              </div>
-
-              <div class="form-group">
-                <label style="font-size:15px;color: black;font-style:bold;"for="text">Stock Limit</label>
-                 <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Stocklimit" aria-describedby="emailHelp" placeholder="">
-            
-              </div>
-              <div class="form-group">
-                <label style="font-size:15px;color: black;font-style:bold;"for="text">Purchase Discount %</label>
-                 <input   style="width: 260px;color:black; font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
-        
-              </div>
-                                      <div class="row">
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <div class="modal fade" id="addnewcustomer" tabindex="-1" role="dialog" aria-labelledby="addnewcustomer" aria-hidden="true">
+                              <div class="modal-dialog  "role="document"  >
+                                <div class="modal-content" style="width: 500px;" >
+                                  <div class="modal-header"  >
+                                            <h3 class="modal-title card-header card-header-primary"  id="addnewcustomer">Add New Customer</h3>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
                                   </div>
-                                  </form>
-                      </div>
-                          </div>    
-
-                                    </div>
-            <div class="modal-footer">
-          
-         
-            </div>
-          </div>
-        </div>
-      </div>
-    
-   
-
-      <footer class="footer">
-      
-        </div>
-        <!---------Model End add product-->
-
-<!-----Start Update model-->
-<div class="modal fade" id="updateproductquntity" tabindex="-1" role="dialog" aria-labelledby="updateproductquntity" aria-hidden="true">
-  <div class="modal-dialog  "role="document"  >
-    <div class="modal-content" style="width: 780px;" >
-      <div class="modal-header"  >
-                <h3 class="modal-title card-header card-header-primary"  id="updateproductquntity">Update Product Quntity</h3>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-           </div>
-          <div class="col-lg-8 col-md-6 col-sm-6" style="width: 880px;" >      
-              <div class="modal-body" >
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-6">
-                    <form class="updateproductfrom" style="width:160px;"> 
-
-                    
-           <!-- input Enter Name ------>
-               <div class="form-group">
-            <label style="font-size:15px;color: black;font-style:bold;"for="Name" >Enter Product Name  </label>
-             <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="productname" aria-describedby="emailHelp" placeholder=" ">
-        
-            <!--- Modal   Start Add company  -->
-          </div>
-  
-           <!--Enter Company code  -->
-           <div class="form-group">
-            <label style="font-size:15px;color: black;font-style:bold;"for="text">Enter Product code</label>
-             <input   style="width: 260px;color:black; font-size:15px "   type="text" class="form-control" id="productcode" aria-describedby="emailHelp" placeholder="">
-
-          <div class="form-group">
-            <label style="font-size:15px;color: black;font-style:bold;"for="text">Product Type</label>
-             <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
-         
-          </div> 
-        </div>
-          
-         
-        </form>
-     
-                </div>
-                <!----Dialog Box send from-->
-              <div class="col-lg-6 col-md-6 col-sm-6" >
-                <form class="from 2 company data "style="width: 220px; margin-left:12%" > 
-            <!-- input Enter Name ------>
-        <div class="form-group">
-          <label style="font-size:15px;color: black;font-style:bold;"for="Name" > Purchase Price </label>
-           <input   style="width: 260px;color:black; font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
-       
-          <!--- Modal   Start Add company  -->
-        </div>
-    
-        
-        <div class="form-group">
-          <label style="font-size:15px;color: black;font-style:bold;"for="text">Total Quntity</label>
-           <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
-       
-        </div>
-
-        <div class="form-group">
-          <label style="font-size:15px;color: black;font-style:bold;"for="text">Stock Limit</label>
-           <input   style="width: 260px;color:black; font-size:15px "   type="text" class="form-control" id="Stocklimit" aria-describedby="emailHelp" placeholder="">
-      
-        </div>
-        <div class="form-group">
-          <label style="font-size:15px;color: black;font-style:bold;"for="text">Purchase Discount %</label>
-           <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
-  
-        </div>
-
-                              <button type="submit" class="btn btn-primary">Submit</button>
-                              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-   
-       </form>
-                </div>
-                    </div>    
-
+                                  <div class="col-lg-5 col-md-6 col-sm-6"  >      
+                                          <div class="modal-body" >
+                                            <div class="row">
+                                              <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <form style="width:400px;"> 
+                                                      <!--------- comapny form start-->
+                                                      <div class="form-group">
+                                                        <label style="font-size:15px;color: black;font-style:bold;"for="Name" > Enter Customer Name</label>
+                                                         <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
+                                                     
+                                                        <!--- Modal   Start Add company  -->
+                                                      </div>
+                                                  
+                                                      <div class="form-group">
+                                                        <label style="font-size:15px;color: black;font-style:bold;"for="text">Phone Number</label>
+                                                         <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
+                                                     
+                                                      </div>
+                                        
+                                                      <div class="form-group">
+                                                        <label style="font-size:15px;color: black;font-style:bold;"for="text">Address</label>
+                                                         <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Stocklimit" aria-describedby="emailHelp" placeholder="">
+                                                    
+                                                      </div>
+                      
+                                                      <div class="row">
+                                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                      </div>
+                                                                  </form>
+                      
+                                            </div>
+                                            <!----Dialog Box send from-->
+                                      
+                                                </div>    
+                      
+                                                          </div>
+                                  <div class="modal-footer">
+                                  
+                               
+                                  </div>
+                                </div>
                               </div>
-      <div class="modal-footer">
-       
-      </div>
-    </div>
-  </div>
-</div>
+                            </div>
+                          
+                         
+                      
+                            <footer class="footer">
+                            
+                              </div>
+                              <!---------Model End add product-->
+                      
+                      <!-----Start Update model-->
+                      <div class="modal fade" id="updatecustomerinfo" tabindex="-1" role="dialog" aria-labelledby="updatecustomerinfo" aria-hidden="true">
+                        <div class="modal-dialog  "role="document"  >
+                          <div class="modal-content" style="width: 500px;" >
+                            <div class="modal-header"  >
+                                      <h3 class="modal-title card-header card-header-primary"  id="updatecustomerinfo">Update Customer Info </h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                                 </div>
+                                <div class="col-lg-5 col-md-6 col-sm-6" style="width: 500px;" >      
+                                    <div class="modal-body" >
+                                      <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <form style="width:400px;"> 
+                                            <!--------- comapny form start-->
+                                            <div class="form-group">
+                                              <label style="font-size:15px;color: black;font-style:bold;"for="Name" > Enter Customer Name</label>
+                                               <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="purchaseprice" aria-describedby="emailHelp" placeholder="">
+                                           
+                                              <!--- Modal   Start Add company  -->
+                                            </div>
+                                        
+                                            <div class="form-group">
+                                              <label style="font-size:15px;color: black;font-style:bold;"for="text">Phone Number</label>
+                                               <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="totalquntity" aria-describedby="emailHelp" placeholder="">
+                                           
+                                            </div>
+                              
+                                            <div class="form-group">
+                                              <label style="font-size:15px;color: black;font-style:bold;"for="text">Address</label>
+                                               <input   style="width: 260px;color:black;  font-size:15px "   type="text" class="form-control" id="Stocklimit" aria-describedby="emailHelp" placeholder="">
+                                          
+                                            </div>
+                      
+                                            <div class="row">
+                                              <button type="submit" class="btn btn-primary">Submit</button>
+                                              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                            </div>
+                                                        </form>     
+                                      </div>
+                             
 
-
-
-
-
-<!------End Update Model-->
-
-
-
-          <!----------------------------------------->
+        <!----------------------------------------->
 
 <!-- Modal -->
 
